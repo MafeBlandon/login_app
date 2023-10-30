@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#A5ACE6"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="38dp"
+        app:cardCornerRadius="@dimen/size_text_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="25dp"
+            android:paddingVertical="25dp"
+            android:background="#F0EEF1"
+            >
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_register"
+                android:textAlignment="center"
+                android:textSize="@dimen/size_text_title"
+                android:textColor="#1E0101"
+                android:layout_marginBottom="@dimen/size_text_title"
+
+                />
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_nombre"
+                android:inputType="textPersonName"
+
+                />
+            <EditText
+                android:id="@+id/etLast_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/etLast_name"
+                android:inputType="textPersonName"
+
+                />
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_correo"
+                android:inputType="textEmailAddress"
+
+                />
+
+            <EditText
+                android:id="@+id/etPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_telefono"
+                android:inputType="phone"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_logi"
+                android:textAlignment="center"
+                android:textSize="@dimen/size_text_title"
+                android:layout_marginTop="@dimen/margin_top_title"
+                android:layout_marginBottom="@dimen/margin_bottontitle"
+                android:textColor="@color/black"
+                />
+
+
+
+            <EditText
+                android:id="@+id/etUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_usuario"
+                android:inputType="text"
+
+                />
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_pass"
+                android:inputType="textPassword"
+
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnRegistrar"
+                android:text="@string/text_btn_resgistro"
+                android:textSize="@dimen/size_text_title"
+                android:layout_marginTop="@dimen/margin_top_btn"
+                android:backgroundTint="#4042D1"
+                android:layout_gravity="center"
+
+
+
+
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnIniciar"
+                android:text="@string/text_btn_iniciar_sc"
+                android:textSize="@dimen/size_text_title"
+                android:layout_marginTop="@dimen/margin_top_btn"
+                android:backgroundTint="#4042D1"
+                android:layout_gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/btnRegistrar"
+
+
+                />
+
+
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

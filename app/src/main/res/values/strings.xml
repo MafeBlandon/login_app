@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">login_volley_2471726</string>
+    <string name="title_register">REGISTRO USUARIO</string>
+    <string name="hint_nombre">"ingrese su nombre "</string>
+    <string name="etLast_name">Ingrese el apellido</string>
+    <string name="hint_correo">"Ingrese el correo "</string>
+    <string name="hint_telefono">Ingrese el telefono</string>
+    <string name="hint_usuario">Ingrese nombre de usuario</string>
+    <string name="hint_pass">Ingrese una contraseña segura</string>
+    <string name="title_login">Datos de ingreso</string>
+    <string name="title_logi">"REGISTRO INGRESO "</string>
+    <string name="text_btn_resgistro">Registro</string>
+    <string name="hint_usuario_login">"Ingrese su usuario "</string>
+    <string name="text_title_login">Ingreso Usuario</string>
+    <string name="hint_pass_login">Ingrese la contraseña</string>
+    <string name="btn_title">Ingresar</string>
+    <string name="text_btn_iniciar">"Iniciar secion "</string>
+    <string name="text_btn_iniciar_sc">Iniciar sesion</string>
+    <string name="text_btn_resgistrarse">"Registrarse "</string>
+    <string name="api_login">http://192.168.1.18/API_VOLLEY/login.php</string>
+    <string name="api_insert">http://192.168.1.18/API_VOLLEY/insert.php</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_text_title">20dp</dimen>
+    <dimen name="margin_top_title">25dp</dimen>
+    <dimen name="margin_bottontitle">20dp</dimen>
+    <dimen name="margin_top_btn">30dp</dimen>
+    <dimen name="border_card">20dp</dimen>
+</resources>
